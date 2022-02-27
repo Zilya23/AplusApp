@@ -10,7 +10,7 @@ namespace AplusApp
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new NavigationPage( new Pages.AuthorizPage());
         }
 
         protected override void OnStart()

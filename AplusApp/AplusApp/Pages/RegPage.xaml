@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AplusApp.Pages.RegPage"
+             Background="White">
+    <NavigationPage.TitleView>
+        <StackLayout>
+            <Label Text = "Регистрация" Margin="0, 0, 75, 0" TextColor="White" HorizontalTextAlignment="Center" FontSize="Title"/>
+        </StackLayout>
+    </NavigationPage.TitleView>
+    <ContentPage.Content>
+        <StackLayout Orientation="Vertical" VerticalOptions="FillAndExpand">
+            <StackLayout>
+                <Label Text="E-mail" Margin="25" TextColor="Black"/>
+                <Entry BackgroundColor="#E8E8E8"/>
+            </StackLayout>
+            <StackLayout>
+                <Label Text="Логин" Margin="25" TextColor="Black"/>
+                <Entry BackgroundColor="#E8E8E8"/>
+            </StackLayout>
+            <StackLayout>
+                <Label Text="Пароль" Margin="25" TextColor="Black"/>
+                <Entry BackgroundColor="#E8E8E8"/>
+            </StackLayout>
+            <StackLayout>
+                <Label Text="Пароль" Margin="25" TextColor="Black"/>
+                <Entry BackgroundColor="#E8E8E8"/>
+            </StackLayout>
+ 
+            <Button x:Name="Btn_Registration" Text="Зарегистрироваться"  TextColor="White" HorizontalOptions="Center" WidthRequest="350" Margin="0,70,0,50" Clicked="Btn_Registration_Clicked"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
