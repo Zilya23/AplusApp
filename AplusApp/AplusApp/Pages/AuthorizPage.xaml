@@ -20,7 +20,7 @@
             </StackLayout>
             <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
                 <Button x:Name="btn_Registr" Text="Зарегистрироваться" TextColor="White"  HorizontalOptions="Start" Clicked="btn_Registr_Clicked"/>
-                <Button x:Name="btn_Entery" Text="Войти" TextColor="White"  HorizontalOptions="End"/>
+                <Button x:Name="btn_Entery" Text="Войти" TextColor="White"  HorizontalOptions="End" Clicked="btn_Entery_Clicked"/>
             </StackLayout>
         </StackLayout>
     </ContentPage.Content>

@@ -1,12 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="AplusApp.Pages.ProjectsPage">
+             x:Class="AplusApp.Pages.ProjectsPage"
+             Background="White">
+    <NavigationPage.TitleView>
+        <Label Text="Проекты" 
+               HorizontalOptions="CenterAndExpand" 
+               FontSize="36" 
+               TextColor="WhiteSmoke"/>
+    </NavigationPage.TitleView>
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <ListView x:Name="lv_projects" ItemsSource="{Binding Projects}" ItemTapped="lv_projects_ItemTapped"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

@@ -21,5 +21,10 @@ namespace AplusApp.Pages
         {
             await Navigation.PushAsync(new Pages.RegPage());
         }
+
+        private async void btn_Entery_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new Pages.ProjectsPage());
+        }
     }
 }
