@@ -24,9 +24,9 @@ namespace AplusApp.Pages
             this.BindingContext = this;
         }
 
-        private void lv_projects_ItemTapped(object sender, ItemTappedEventArgs e)
+        private async void lv_projects_ItemTapped(object sender, ItemTappedEventArgs e)
         {
-
+            await Navigation.PushAsync(new Pages.InfoTabbedPage());
         }
     }
 }

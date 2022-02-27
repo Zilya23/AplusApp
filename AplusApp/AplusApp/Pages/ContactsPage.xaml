@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AplusApp.Pages.ContactsPage"
+             Background="White">
+    <ContentPage.Content>
+        <StackLayout Orientation="Vertical" VerticalOptions="FillAndExpand">
+            <StackLayout>
+                <Label Text="Телефон" Margin="5" TextColor="Black"/>
+                <Entry BackgroundColor="#E8E8E8"/>
+            </StackLayout>
+            <StackLayout>
+                <Label Text="Телефон" Margin="5" TextColor="Black"/>
+                <Entry BackgroundColor="#E8E8E8"/>
+            </StackLayout>
+            <StackLayout>
+                <Label Text="E-mail" Margin="5" TextColor="Black"/>
+                <Entry BackgroundColor="#E8E8E8"/>
+            </StackLayout>
+            <StackLayout>
+                <Label Text="Адрес" Margin="5" TextColor="Black"/>
+                <Entry BackgroundColor="#E8E8E8"/>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

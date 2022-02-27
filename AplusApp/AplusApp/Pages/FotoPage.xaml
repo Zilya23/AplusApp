@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AplusApp.Pages.FotoPage"
+             Background="White">
+    <ContentPage.Content>
+        <StackLayout>
+            <StackLayout Padding="30" Spacing="30">
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="home.png"/>
+                    <Image Source="home.png"/>
+                </StackLayout>
+
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="home.png"/>
+                    <Image Source="home.png"/>
+                </StackLayout>
+
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="home.png"/>
+                    <Image Source="home.png"/>
+                </StackLayout>
+
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="home.png"/>
+                    <Image Source="home.png"/>
+                </StackLayout>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
